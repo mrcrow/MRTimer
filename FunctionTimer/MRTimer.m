@@ -94,6 +94,7 @@ static NSString *const kMREndDateKey        = @"com.michaelwu.endDate";
 {
     MRTimer *timer = [MRTimer sharedTimer];
     NSString *selectorIndicator = NSStringFromSelector(selector);
+    
     NSMutableDictionary *observeInfo = timer.observeDictionary[selectorIndicator];
     if (!observeInfo)
     {
