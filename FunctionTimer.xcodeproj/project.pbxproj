@@ -21,6 +21,8 @@
 		C12F865D190425BE00FB8F18 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C12F863F190425BE00FB8F18 /* UIKit.framework */; };
 		C12F8665190425BE00FB8F18 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C12F8663190425BE00FB8F18 /* InfoPlist.strings */; };
 		C12F8667190425BE00FB8F18 /* FunctionTimerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C12F8666190425BE00FB8F18 /* FunctionTimerTests.m */; };
+		C12F8672190425DC00FB8F18 /* MRTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = C12F8671190425DC00FB8F18 /* MRTimer.m */; };
+		C12F8674190425F900FB8F18 /* IMG_1001.JPG in Resources */ = {isa = PBXBuildFile; fileRef = C12F8673190425F900FB8F18 /* IMG_1001.JPG */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,9 @@
 		C12F8662190425BE00FB8F18 /* FunctionTimerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FunctionTimerTests-Info.plist"; sourceTree = "<group>"; };
 		C12F8664190425BE00FB8F18 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C12F8666190425BE00FB8F18 /* FunctionTimerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FunctionTimerTests.m; sourceTree = "<group>"; };
+		C12F8670190425DC00FB8F18 /* MRTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRTimer.h; sourceTree = "<group>"; };
+		C12F8671190425DC00FB8F18 /* MRTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRTimer.m; sourceTree = "<group>"; };
+		C12F8673190425F900FB8F18 /* IMG_1001.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_1001.JPG; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,11 +117,14 @@
 		C12F8641190425BE00FB8F18 /* FunctionTimer */ = {
 			isa = PBXGroup;
 			children = (
+				C12F8670190425DC00FB8F18 /* MRTimer.h */,
+				C12F8671190425DC00FB8F18 /* MRTimer.m */,
 				C12F864A190425BE00FB8F18 /* AppDelegate.h */,
 				C12F864B190425BE00FB8F18 /* AppDelegate.m */,
 				C12F864D190425BE00FB8F18 /* Main.storyboard */,
 				C12F8650190425BE00FB8F18 /* ViewController.h */,
 				C12F8651190425BE00FB8F18 /* ViewController.m */,
+				C12F8673190425F900FB8F18 /* IMG_1001.JPG */,
 				C12F8653190425BE00FB8F18 /* Images.xcassets */,
 				C12F8642190425BE00FB8F18 /* Supporting Files */,
 			);
@@ -229,6 +237,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C12F8654190425BE00FB8F18 /* Images.xcassets in Resources */,
+				C12F8674190425F900FB8F18 /* IMG_1001.JPG in Resources */,
 				C12F8646190425BE00FB8F18 /* InfoPlist.strings in Resources */,
 				C12F864F190425BE00FB8F18 /* Main.storyboard in Resources */,
 			);
@@ -249,6 +258,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C12F8672190425DC00FB8F18 /* MRTimer.m in Sources */,
 				C12F8652190425BE00FB8F18 /* ViewController.m in Sources */,
 				C12F864C190425BE00FB8F18 /* AppDelegate.m in Sources */,
 				C12F8648190425BE00FB8F18 /* main.m in Sources */,
@@ -379,6 +389,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FunctionTimer/FunctionTimer-Prefix.pch";
 				INFOPLIST_FILE = "FunctionTimer/FunctionTimer-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -392,6 +403,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FunctionTimer/FunctionTimer-Prefix.pch";
 				INFOPLIST_FILE = "FunctionTimer/FunctionTimer-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
