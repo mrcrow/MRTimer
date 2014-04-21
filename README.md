@@ -32,3 +32,5 @@ Or jump out of the function and use the observe style:
 
 Lisence
 =======
+
+MRTimer is available under the MIT license.
