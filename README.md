@@ -27,5 +27,5 @@ Or jump out of the function and use the observe style:
         
         ...
         
-        [MRTimer observeEnd:ME_SELECTOR];
+        [MRTimer observeEnd:MR_SELECTOR];
     }
