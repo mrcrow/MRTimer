@@ -29,3 +29,6 @@ Or jump out of the function and use the observe style:
         
         [MRTimer observeEnd:MR_SELECTOR];
     }
+
+Lisence
+=======
