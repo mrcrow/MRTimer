@@ -1,4 +1,6 @@
 MRTimer
 =======
 
-Set flag and get the time interval
+MRTimer is used to measure a time interval between lines of code.
+
+
