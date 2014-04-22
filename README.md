@@ -1,9 +1,9 @@
 MRTimer
 =======
 
-MRTimer is used to measure the time interval between lines of codes.
+MRTimer is used to measure the time interval between lines of codes while running.
 
-You can simply get the time interval within the function like: 
+You can simply get the time interval within the function:
 
     [MRTimer setFlag];
     
