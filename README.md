@@ -1,9 +1,9 @@
 MRTimer
 =======
 
-MRTimer is used to measure the time interval between lines of codes while running.
+MRTimer is used to measure the method execution time.
 
-You can simply get the time interval within the function:
+The time interval can be simply retrieved within the method using **setFlag** and **timeIntervalFromLastFlag**:
 
     [MRTimer setFlag];
     
@@ -11,7 +11,7 @@ You can simply get the time interval within the function:
     
     NSTimeInterval interval = [MRTimer timeIntervalFromLastFlag];
     
-Or jump out of the function and use the observe style:
+Or jump out of the methods and use its observe style:
 
     - (void)viewDidLoad 
     {
@@ -30,7 +30,6 @@ Or jump out of the function and use the observe style:
         [MRTimer observeEnd:MR_SELECTOR];
     }
 
-    
 Lisence
 =======
 > Permission is hereby granted, free of charge, to any person obtaining a copy
